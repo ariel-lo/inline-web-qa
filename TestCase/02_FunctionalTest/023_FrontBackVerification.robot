@@ -14,6 +14,14 @@ Verify Reservation Backend
 ######### Page 1 ###########
 # *adult amount: 1~12
 # kid amount: 0~10
+adult 1
+adult 3
+adult 11
+adult 12
+adult 1, kid 10
+adult 2, kid 1
+adult 11, kid 7
+adult 12, kid 10
 # *dining date: first available button to last available button
 # *dining period: first to last available buttons
 # *bottom hovering button: "Book Now", "Please select your dining time", "Next" show up timing

@@ -1,14 +1,9 @@
 *** Settings ***
 Documentation    Example suite
-# Suite Setup      Do Something    ${MESSAGE}
-# Force Tags       example
-# Library          SomeLibrary
+Resource          ../kw_reservation.robot
+Suite Setup      Open Reservation Page
+Suite Teardown      Close All Browsers
 
 *** Variables ***
-# ${MESSAGE}       Hello, world!
 
 *** Keywords ***
-# Do Something
-#     [Arguments]    ${args}
-#     Some Keyword    ${arg}
-#     Another Keyword
